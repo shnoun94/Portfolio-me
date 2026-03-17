@@ -22,14 +22,12 @@ export const data = {
     methodes: ["MVC", "REST API"],
   },
 
-  skillLevels: [
-    { name: "HTML / CSS", level: 90 },
-    { name: "JavaScript", level: 75 },
-    { name: "React.js", level: 70 },
-    { name: "PHP / Symfony", level: 65 },
-    { name: "Node.js", level: 60 },
-    { name: "Python", level: 55 },
-  ],
+skills: {
+  langages:   ["HTML / CSS", "JavaScript", "PHP"],
+  frameworks: ["React.js", "Node.js", "Laravel"],
+  outils:     ["Git / GitHub", "VS Code", "Figma", "Docker"],
+  methodes:   ["MVC", "REST API"],
+},
 
   langues: [
     { lang: "Français", code: "FR", level: "natif" },
