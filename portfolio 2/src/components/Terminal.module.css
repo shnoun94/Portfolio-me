@@ -1,0 +1,59 @@
+.terminal {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 1.75rem 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border);
+}
+
+.title {
+  color: var(--muted);
+  font-size: 11px;
+  margin-left: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.red    { background: #ff5f56; }
+.yellow { background: #ffbd2e; }
+.green  { background: #27c93f; }
+
+.body {
+  padding: 1rem 1.25rem;
+}
+
+.line {
+  margin-bottom: 0.3rem;
+  line-height: 1.7;
+}
+
+.prompt { color: var(--green); margin-right: 6px; }
+.cmd    { color: var(--cyan); }
+.arg    { color: var(--amber); }
+
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: var(--green);
+  animation: blink 1s step-end infinite;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}

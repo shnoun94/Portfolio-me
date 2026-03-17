@@ -1,0 +1,68 @@
+.hero { animation: fadeIn 0.4s ease; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.prompt { color: var(--muted); font-size: 12px; margin-bottom: 0.5rem; }
+.user   { color: var(--green); }
+.sep    { color: var(--cyan); margin: 0 4px; }
+
+.h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.em { color: var(--green); font-style: normal; }
+
+.tagline {
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  color: var(--cyan);
+  margin-bottom: 1.5rem;
+  min-height: 1.5em;
+}
+.comment { color: var(--muted); }
+.caret {
+  color: var(--green);
+  animation: blink 0.8s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+.badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+.badge {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  border: 1px solid;
+}
+.green  { border-color: var(--green);  color: var(--green);  background: rgba(0,255,136,.06); }
+.cyan   { border-color: var(--cyan);   color: var(--cyan);   background: rgba(0,212,255,.06); }
+.amber  { border-color: var(--amber);  color: var(--amber);  background: rgba(255,184,0,.06); }
+
+.cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+.btn {
+  font-size: 12px;
+  padding: 8px 20px;
+  border-radius: 2px;
+  border: 1px solid;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+.primary {
+  background: var(--green);
+  color: #000;
+  border-color: var(--green);
+}
+.primary:hover { background: transparent; color: var(--green); }
+.outline {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+.outline:hover { border-color: var(--cyan); color: var(--cyan); }

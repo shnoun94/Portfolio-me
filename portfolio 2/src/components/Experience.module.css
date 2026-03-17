@@ -1,0 +1,62 @@
+.section { animation: fadeIn 0.4s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.header { margin-bottom: 1.5rem; }
+.h2 { font-size: 1.3rem; color: #fff; font-weight: 700; }
+.h2::before { content: '$ '; color: var(--green); }
+.sub { color: var(--muted); font-size: 12px; margin-top: 0.25rem; }
+
+.catLabel { color: var(--cyan); font-size: 12px; margin-bottom: 1rem; }
+
+/* Formation */
+.eduCard {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s;
+}
+.eduCard:hover { border-color: var(--amber); }
+
+.eduDate   { color: var(--amber); font-size: 11px; }
+.eduDegree { color: #fff; font-weight: 700; margin: 0.25rem 0 0.1rem; }
+.eduSchool { color: var(--cyan); font-size: 12px; margin-bottom: 0.35rem; }
+.eduDetail { color: var(--muted); font-size: 11px; margin-bottom: 0.5rem; }
+
+.tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.tag {
+  font-size: 10px;
+  padding: 2px 8px;
+  background: rgba(0,212,255,.07);
+  border: 1px solid rgba(0,212,255,.2);
+  color: var(--cyan);
+  border-radius: 2px;
+}
+
+/* Experience */
+.expItem {
+  border-left: 2px solid var(--border);
+  padding-left: 1.25rem;
+  margin-bottom: 1.75rem;
+  position: relative;
+}
+.expItem:hover { border-left-color: var(--green); }
+
+.dot {
+  position: absolute;
+  left: -5px;
+  top: 4px;
+  width: 8px;
+  height: 8px;
+  background: var(--green);
+  border-radius: 50%;
+}
+
+.expDate    { color: var(--muted); font-size: 11px; }
+.expTitle   { color: #fff; font-weight: 700; font-size: 0.95rem; margin: 0.25rem 0 0.1rem; }
+.expCompany { color: var(--cyan); font-size: 12px; margin-bottom: 0.5rem; }
+
+.bullets { display: flex; flex-direction: column; gap: 0.2rem; }
+.bullets li { color: var(--text); font-size: 12px; }
+.bullets li::before { content: '> '; color: var(--green); }
