@@ -9,8 +9,8 @@ export const data = {
   location: "Paris, Île-de-France",
   email: "snna192@email.com",
   phone: "06 61 53 49 95",
-  linkedin: "linkedin.com/in/pseudo",
-  github: "github.com/shnoun",
+  linkedin: "Indeed.com/Shanna Elie",
+  github: "github.com/shnoun94",
 
   about:
     "Je recherche alternance pour mettre en pratique mes compétences Front & Back.",
@@ -110,8 +110,7 @@ skills: {
   ],
 
   interests: [
-    "Jeux vidéo — précisez",
-    "Musique — précisez",
-    "Sport — précisez",
+    "Maquette ",
+    "Musique ",
   ],
 };
