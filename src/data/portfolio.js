@@ -9,7 +9,7 @@ export const data = {
   location: "Paris, Île-de-France",
   email: "snna192@email.com",
   phone: "06 61 53 49 95",
-  linkedin: "Indeed.com/Shanna Elie",
+  linkedin: "Linkedin.com/Shanna Elie",
   github: "github.com/shnoun94",
 
   about:
@@ -29,7 +29,7 @@ skills: {
   methodes:   ["MVC", "REST API"],
 },
 
-  langues: [
+  langue: [
     { lang: "Anglais", code: "EN", level: "B2" },
   ],
 
@@ -53,7 +53,7 @@ skills: {
   experiences: [
     {
       date: "2023 – 2025",
-      title: "Agent de sécuriter et de prévention",
+      title: "Agent de sécurité et de prévention",
       company: "Aca Sécuriter / Sécuriteam",
       bullets: [
         "Contrôle d'accès et filtrage du public lors de concerts, festivals et événements sportifs.",
@@ -85,7 +85,7 @@ skills: {
     {
       id: "01",
       name: "KLIVIO",
-      desc: "Création d’un réseau social(création de compte(post, like, commentaires, modifer son profil).",
+      desc: "construire une page d’accueil.",
       stack: ["HTML", "CSS"],
       meta: "Projet individuel · 2 semaines",
       github: "#",
@@ -101,7 +101,7 @@ skills: {
     {
       id: "",
       name: "Connect-In",
-      desc: "Création d’un réseau social.",
+      desc: "Création d’un réseau social(création de compte(post, like, commentaires, modifer son profil.",
       stack: ["Laravel", "HTML", "Tailwind", "PHP"],
       meta: "Groupe (2 pers) · 3semaines",
       github: "#",
