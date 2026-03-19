@@ -2,8 +2,8 @@ export const data = {
   name: { first: "Shanna", last: "Elie" },
   title: "Développeur Web Full-Stack",
   alternance: {
-    debut: "04/2026",
-    duree: "1 ans",
+    debut: "09/2026",
+    duree: "14 mois",
     rythme: "1 sem. école / 3 sem. entreprise",
   },
   location: "Paris, Île-de-France",
@@ -30,16 +30,15 @@ skills: {
 },
 
   langues: [
-    { lang: "Français", code: "FR", level: "natif" },
     { lang: "Anglais", code: "EN", level: "B2" },
   ],
 
   formation: [
     {
-      date: "2026 – 2026",
+      date: "2025 – 2027",
       degree: "Développeur-Intégrateur Web",
       school: "Epitech — Paris",
-      detail: "Titre RNCP Niveau 5 (Bac+2)",
+      detail: "BAC+2 RNCP Niveau 5 ",
       tags: ["Projets pratiques", "Front-end", "Back-end"],
     },
     {
@@ -85,8 +84,8 @@ skills: {
   projects: [
     {
       id: "01",
-      name: "Site 1",
-      desc: "Description courte du projet.Construire une page d’accueil.",
+      name: "KLIVIO",
+      desc: "Création d’un réseau social(création de compte(post, like, commentaires, modifer son profil).",
       stack: ["HTML", "CSS"],
       meta: "Projet individuel · 2 semaines",
       github: "#",
@@ -94,7 +93,7 @@ skills: {
     {
       id: "02",
       name: "My cinéma",
-      desc: "Créer un back-office pour le gérant de cinéma afin qu'il puisse gérer le mieux possible son cinéma.",
+      desc: "Site de gestion de projection de films (salles, films, séances",
       stack: ["PHP", "SQL", "MVC", "API"],
       meta: "Projet individuel· 1 semaine",
       github: "#",
