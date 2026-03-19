@@ -29,7 +29,7 @@ skills: {
   methodes:   ["MVC", "REST API"],
 },
 
-  langue: [
+  langues: [
     { lang: "Anglais", code: "EN", level: "B2" },
   ],
 
@@ -85,7 +85,7 @@ skills: {
     {
       id: "01",
       name: "KLIVIO",
-      desc: "construire une page d’accueil.",
+      desc: "Construire une page d’accueil.",
       stack: ["HTML", "CSS"],
       meta: "Projet individuel · 2 semaines",
       github: "#",
@@ -101,7 +101,7 @@ skills: {
     {
       id: "",
       name: "Connect-In",
-      desc: "Création d’un réseau social(création de compte(post, like, commentaires, modifer son profil.",
+      desc: "Création d’un réseau social(création de compte(post, like, commentaires, modifer son profil)..",
       stack: ["Laravel", "HTML", "Tailwind", "PHP"],
       meta: "Groupe (2 pers) · 3semaines",
       github: "#",
