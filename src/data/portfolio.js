@@ -4,7 +4,7 @@ export const data = {
   alternance: {
     debut: "09/2026",
     duree: "14 mois",
-    rythme: "1 sem. école / 3 sem. entreprise",
+    rythme: "2 sem. école / 6 sem. entreprise",
   },
   location: "Paris, Île-de-France",
   email: "snna192@email.com",
