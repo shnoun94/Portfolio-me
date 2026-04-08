@@ -83,12 +83,13 @@ skills: {
 
   projects: [
     {
-      id: "01",
-      name: "KLIVIO",
-      desc: "Construire une page d’accueil.",
-      stack: ["HTML", "CSS"],
-      meta: "Projet individuel · 2 semaines",
-      github: "#",
+  id: "01",
+  name: "KLIVIO",
+  desc: "Construire une page d’accueil.",
+  stack: ["HTML", "CSS"],
+  meta: "Projet individuel · 2 semaines",
+  github: "#",
+  link: "https://shnoun94.github.io/Klivio1.5/"
     },
     {
       id: "02",
@@ -97,9 +98,10 @@ skills: {
       stack: ["PHP", "SQL", "MVC", "API"],
       meta: "Projet individuel· 1 semaine",
       github: "#",
+      link: ""
     },
     {
-      id: "",
+      id: "03",
       name: "Connect-In",
       desc: "Création d’un réseau social(création de compte(post, like, commentaires, modifer son profil)..",
       stack: ["Laravel", "HTML", "Tailwind", "PHP"],

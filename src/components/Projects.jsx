@@ -10,7 +10,12 @@ export default function Projects({ data }) {
 
       <div className={styles.grid}>
         {data.projects.map(p => (
-          <div key={p.id} className={styles.card}>
+          <div
+            key={p.id}
+            className={styles.card}
+            onClick={() => p.link && window.open(p.link, "_blank")}
+            style={{ cursor: p.link ? "pointer" : "default" }}
+          >
             <div className={styles.num}>./projet_{p.id}</div>
             <div className={styles.name}>{p.name}</div>
             <p className={styles.desc}>{p.desc}</p>
