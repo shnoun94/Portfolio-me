@@ -88,8 +88,7 @@ skills: {
   desc: "Construire une page d’accueil.",
   stack: ["HTML", "CSS"],
   meta: "Projet individuel · 2 semaines",
-  github: "#",
-  link: "https://shnoun94.github.io/Klivio1.5/"
+  github: "https://shnoun94.github.io/Klivio1.5/",
     },
     {
       id: "02",
@@ -97,8 +96,7 @@ skills: {
       desc: "Site de gestion de projection de films (salles, films, séances",
       stack: ["PHP", "SQL", "MVC", "API"],
       meta: "Projet individuel· 1 semaine",
-      github: "#",
-      link: ""
+      github: "https://github.com/shnoun94/my_cinema",
     },
     {
       id: "03",
@@ -106,8 +104,16 @@ skills: {
       desc: "Création d’un réseau social(création de compte(post, like, commentaires, modifer son profil)..",
       stack: ["Laravel", "HTML", "Tailwind", "PHP"],
       meta: "Groupe (2 pers) · 3semaines",
-      github: "#",
+      github: "https://github.com/shnoun94/Connect_In",
     },
+    {
+      id: "04",
+      name: "Jeuv videops",
+      desc: "",
+      stack: ["JavaScript", "Vitest", "Playwright"],
+      meta: "Groupe (2 pers) · 2 semaines",
+      github: "#",
+    }
   ],
 
   interests: [
