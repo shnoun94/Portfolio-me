@@ -108,8 +108,8 @@ skills: {
     },
     {
       id: "04",
-      name: "Jeuv videops",
-      desc: "",
+      name: "Jeux videops",
+      desc: "Realisation des test unitaire et fonctionnel d’un jeux vidéo en ligne",
       stack: ["JavaScript", "Vitest", "Playwright"],
       meta: "Groupe (2 pers) · 2 semaines",
       github: "#",
