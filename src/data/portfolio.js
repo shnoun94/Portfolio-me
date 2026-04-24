@@ -114,7 +114,7 @@ skills: {
       stack: ["JavaScript", "Vitest", "Playwright"],
       meta: "Groupe (2 pers) · 2 semaines",
       github: "https://github.com/shnoun94/jeuxvideops",
-      live: "https://shnoun94.github.io/jeuxvideops/", 
+      live: "https://shnoun94.github.io/jeux_videops_13/", 
     }
   ],
 
