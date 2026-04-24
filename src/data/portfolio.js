@@ -88,7 +88,7 @@ skills: {
   desc: "Construire une page d’accueil.",
   stack: ["HTML", "CSS"],
   meta: "Projet individuel · 2 semaines",
-  github: "https://shnoun94.github.io/Klivio1.5/",
+  github: "https://github.com/shnoun94/Klivio1.5",
     },
     {
       id: "02",
@@ -112,7 +112,7 @@ skills: {
       desc: "Realisation des test unitaire et fonctionnel d’un jeux vidéo en ligne",
       stack: ["JavaScript", "Vitest", "Playwright"],
       meta: "Groupe (2 pers) · 2 semaines",
-      github: "#",
+      github: "https://github.com/shnoun94/jeuxvideops",
     }
   ],
 
