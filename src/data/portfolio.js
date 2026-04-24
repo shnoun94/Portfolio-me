@@ -23,9 +23,9 @@ export const data = {
   },
 
 skills: {
-  langages:   ["HTML / CSS", "JavaScript", "PHP"],
+  langages:   ["HTML / CSS", "JavaScript", "PHP", "Python"],
   frameworks: ["React.js", "Node.js", "Laravel"],
-  outils:     ["Git / GitHub", "VS Code", "Figma", "Docker"],
+  outils:     ["Git / GitHub", "VS Code", "Figma", "Docker", "DevOps"],
   methodes:   ["MVC", "REST API"],
 },
 
