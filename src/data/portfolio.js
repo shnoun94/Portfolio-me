@@ -89,6 +89,7 @@ skills: {
   stack: ["HTML", "CSS"],
   meta: "Projet individuel · 2 semaines",
   github: "https://github.com/shnoun94/Klivio1.5",
+  live: "https://shnoun94.github.io/Klivio1.5/", 
     },
     {
       id: "02",
@@ -113,6 +114,7 @@ skills: {
       stack: ["JavaScript", "Vitest", "Playwright"],
       meta: "Groupe (2 pers) · 2 semaines",
       github: "https://github.com/shnoun94/jeuxvideops",
+      live: "https://shnoun94.github.io/jeuxvideops/", 
     }
   ],
 

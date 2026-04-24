@@ -26,11 +26,18 @@ export default function Projects({ data }) {
             </div>
             <div className={styles.footer}>
               <span className={styles.meta}>{p.meta}</span>
-              {p.github && p.github !== '#' && (
-                <a className={styles.ghLink} href={p.github} target="_blank" rel="noreferrer">
-                  gh ↗
-                </a>
-              )}
+              <div style={{ display: 'flex', gap: '0.75rem' }}>
+                {p.live && (
+                  <a className={styles.ghLink} href={p.live} target="_blank" rel="noreferrer">
+                    live ↗
+                  </a>
+                )}
+                {p.github && p.github !== '#' && (
+                  <a className={styles.ghLink} href={p.github} target="_blank" rel="noreferrer">
+                    gh ↗
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         ))}
