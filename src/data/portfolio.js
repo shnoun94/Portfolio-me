@@ -7,7 +7,7 @@ export const data = {
     rythme: "2 sem. école / 6 sem. entreprise",
   },
   location: "Paris, Île-de-France",
-  email: "snna192@email.com",
+  email: "snna192@gmail.com",
   phone: "06 61 53 49 95",
   linkedin: "Linkedin.com/Shanna Elie",
   github: "github.com/shnoun94",
