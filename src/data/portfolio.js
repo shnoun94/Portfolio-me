@@ -123,7 +123,7 @@ skills: {
       stack: ["PHP", "HTML", "dompdf"],
       meta: "Projet individuel · 1 semaine",
       github: "https://github.com/shnoun94/generateur-de-cv",
-      // live: "https://shnoun94.github.io/jeux_videops_13/", 
+      live: "https://generateur-de-cv-umber.vercel.app", 
     }
   ],
 
