@@ -115,6 +115,15 @@ skills: {
       meta: "Groupe (2 pers) · 2 semaines",
       github: "https://github.com/shnoun94/jeuxvideops",
       live: "https://shnoun94.github.io/jeux_videops_13/", 
+    },
+    {
+      id: "05",
+      name: "Générateur de CV",
+      desc: "Ce projet consiste à concevoir un générateur de CV en ligne, permettant à un utilisateur de créer, visualiser, modifier et exporter un CV professionnel au format PDF.",
+      stack: ["PHP", "HTML", "dompdf"],
+      meta: "Projet individuel · 1 semaine",
+      github: "https://github.com/shnoun94/generateur-de-cv",
+      // live: "https://shnoun94.github.io/jeux_videops_13/", 
     }
   ],
 
