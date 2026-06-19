@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
 
 :root {
-  --bg:      #0a0d0f;
-  --bg2:     #0f1317;
-  --bg3:     #141920;
-  --bg4:     #1a2330;
-  --green:   #00ff88;
-  --cyan:    #00d4ff;
-  --amber:   #ffb800;
-  --red:     #ff4444;
-  --purple:  #c084fc;
-  --text:    #c8d8e8;
-  --muted:   #4a6070;
-  --border:  #1e2d3a;
+  --bg:      #1a0f12;
+  --bg2:     #201317;
+  --bg3:     #2a181d;
+  --bg4:     #341f25;
+  --green:   #c98a8a;
+  --cyan:    #d9a9a3;
+  --amber:   #b87560;
+  --red:     #8c3a3a;
+  --purple:  #a8616b;
+  --text:    #f3e9e7;
+  --muted:   #8a6a6e;
+  --border:  #4a2c33;
   --font: 'JetBrains Mono', monospace;
 }
 
@@ -39,8 +39,8 @@ body::before {
     0deg,
     transparent,
     transparent 2px,
-    rgba(0, 255, 136, 0.012) 2px,
-    rgba(0, 255, 136, 0.012) 4px
+    rgba(217, 169, 163, 0.012) 2px,
+    rgba(217, 169, 163, 0.012) 4px
   );
   pointer-events: none;
   z-index: 9999;
