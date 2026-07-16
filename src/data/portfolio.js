@@ -124,6 +124,14 @@ skills: {
       meta: "Projet individuel · 1 semaine",
       github: "https://github.com/shnoun94/generateur-de-cv",
       live: "https://generateur-de-cv-umber.vercel.app", 
+    },
+    {
+      id: "06",
+      name: "Corelab",
+      desc: " LMS (Learning Management System) en stack MERN développé en équipe : gestion de cours/leçons/QCM par import HTML/JSON/CSV, authentification JWT sécurisée (bcrypt), rôles admin/étudiant, suivi de progression et notifications.",
+      stack:"MongoDB, Express.js, React.js, Node.js (MERN), Mongoose, JWT, bcrypt, Zod, React",
+      meta: "Projet de groupe (3 pers) · 2 semaines",
+      github: "https://github.com/shnoun94/corelab",
     }
   ],
 
